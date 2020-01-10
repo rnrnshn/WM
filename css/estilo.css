@@ -1,0 +1,45 @@
+.table{
+		display: table;
+}
+#row{
+	display: table-row;
+}
+
+#cell_1{
+		display: table-cell;
+		background-image: url('img/ww.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+#cell_2{display: table-cell;}
+
+#cell_3{display: table-cell;}
+h2{
+
+	font-family:cursive;
+}
+
+body{
+	padding:0;
+	margin:0;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	background-color: grey;
+}
+
+ul{
+	list-style: none;
+	display: inline-flex;
+}
+li{
+	margin:10px;
+}
+a {
+	text-decoration: none;
+	color:black;
+	font-size:15px;
+}
