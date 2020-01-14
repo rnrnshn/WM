@@ -1,3 +1,17 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	background-color: grey;
+}
+.conteudo{
+
+
+}
 .table{
 		display: table;
 }
@@ -19,17 +33,10 @@ h2{
 
 	font-family:cursive;
 }
-
-body{
-	padding:0;
-	margin:0;
+.image{
+	width: 400px;height: 150px;
 }
 
-header{
-	display:flex;
-	justify-content: space-between;
-	background-color: grey;
-}
 
 ul{
 	list-style: none;
@@ -42,4 +49,12 @@ a {
 	text-decoration: none;
 	color:black;
 	font-size:15px;
+}
+ .conteudo{
+ 	padding: 0;
+ 	margin: 50;
+ 	display: flex;
+ }
+@media only screen and(max-device-width:900px){
+.conteudo{ width: 90px; }
 }
