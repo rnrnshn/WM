@@ -34,7 +34,8 @@ h2{
 	font-family:cursive;
 }
 .image{
-	width: 400px;height: 150px;
+	width: 400px;
+	height: 150px;
 }
 
 
@@ -50,11 +51,19 @@ a {
 	color:black;
 	font-size:15px;
 }
+/*CSS PARA A PAGINA SOBRE NÓS*/
  .conteudo{
  	padding: 0;
  	margin: 50;
  	display: flex;
  }
+ .corpo{
+
+ }
+
+ /*RESPONSÁVEL PELA RESPONSIVIDADE DE TODO O SITE*/
 @media only screen and(max-device-width:900px){
-.conteudo{ width: 90px; }
+.conteudo{ width: 700px; 
+	flex-flow: column;
+			}
 }
